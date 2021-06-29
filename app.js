@@ -23,7 +23,7 @@ app.use(express.static('public'));
 app.get('/', (req, res) => {
     res.render('home', {
         nombre: 'Andres',
-        titulo: 'Curso de Node'
+        titulo: 'Home bichi'
 
     });
 });
